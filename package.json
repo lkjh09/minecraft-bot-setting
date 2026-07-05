@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-discord-manager",
+  "version": "1.0.0",
+  "description": "Discord Minecraft VPS Manager",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "sqlite3": "^5.1.7",
+    "better-sqlite3": "^12.2.0",
+    "ssh2": "^1.17.0",
+    "rcon-client": "^4.2.5",
+    "axios": "^1.11.0",
+    "fs-extra": "^11.3.1",
+    "chalk": "^5.6.2",
+    "node-schedule": "^2.1.1",
+    "systeminformation": "^5.27.11"
+  }
+}
